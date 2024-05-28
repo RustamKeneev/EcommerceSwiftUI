@@ -23,6 +23,8 @@
 		FFCB7EF42C06193E00E1A181 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB7EF32C06193E00E1A181 /* NotificationView.swift */; };
 		FFCB7EF62C06195B00E1A181 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB7EF52C06195B00E1A181 /* CartView.swift */; };
 		FFCB7EF82C06197200E1A181 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB7EF72C06197200E1A181 /* ProfileView.swift */; };
+		FFCB7EFB2C061C4300E1A181 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB7EFA2C061C4300E1A181 /* Product.swift */; };
+		FFCB7EFF2C06208300E1A181 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB7EFE2C06208300E1A181 /* ImageSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		FFCB7EF32C06193E00E1A181 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		FFCB7EF52C06195B00E1A181 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		FFCB7EF72C06197200E1A181 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FFCB7EFA2C061C4300E1A181 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FFCB7EFE2C06208300E1A181 /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		FFCB7EB22C059FD700E1A181 /* EcommerceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFCB7EF92C061C0200E1A181 /* Models */,
 				FFCB7EE52C05BAE000E1A181 /* Extensions */,
 				FFCB7EE12C05A4E300E1A181 /* Core */,
 				FFCB7EE02C05A4D300E1A181 /* App */,
@@ -167,12 +172,12 @@
 		FFCB7EE12C05A4E300E1A181 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				FFCB7EFC2C06205100E1A181 /* Components */,
 				FFCB7EEA2C06187500E1A181 /* Home */,
 				FFCB7EEB2C06187D00E1A181 /* Search */,
 				FFCB7EEC2C06188900E1A181 /* Notification */,
 				FFCB7EED2C0618AA00E1A181 /* Cart */,
 				FFCB7EEE2C0618B200E1A181 /* Profile */,
-				FFCB7EE22C05A53000E1A181 /* TabView */,
 				FFCB7EB52C059FD700E1A181 /* ContentView.swift */,
 			);
 			path = Core;
@@ -232,6 +237,31 @@
 				FFCB7EF72C06197200E1A181 /* ProfileView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		FFCB7EF92C061C0200E1A181 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFCB7EFA2C061C4300E1A181 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FFCB7EFC2C06205100E1A181 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FFCB7EFD2C06206700E1A181 /* ImageSlider */,
+				FFCB7EE22C05A53000E1A181 /* TabView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FFCB7EFD2C06206700E1A181 /* ImageSlider */ = {
+			isa = PBXGroup;
+			children = (
+				FFCB7EFE2C06208300E1A181 /* ImageSliderView.swift */,
+			);
+			path = ImageSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,11 +394,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCB7EFF2C06208300E1A181 /* ImageSliderView.swift in Sources */,
 				FFCB7EF62C06195B00E1A181 /* CartView.swift in Sources */,
 				FFCB7EDF2C05A32700E1A181 /* Tab.swift in Sources */,
 				FFCB7EF02C0618FE00E1A181 /* HomeView.swift in Sources */,
 				FFCB7EE92C05BD0C00E1A181 /* MaterialEffects.swift in Sources */,
 				FFCB7EB62C059FD700E1A181 /* ContentView.swift in Sources */,
+				FFCB7EFB2C061C4300E1A181 /* Product.swift in Sources */,
 				FFCB7EF22C06191600E1A181 /* SearchView.swift in Sources */,
 				FFCB7EE42C05B51A00E1A181 /* CustomTabView.swift in Sources */,
 				FFCB7EB42C059FD700E1A181 /* EcommerceSwiftUIApp.swift in Sources */,
